@@ -1,10 +1,11 @@
 {
   "name": "arkhamjs-storage-browser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Browser storage for ArkhamJS",
   "license": "MIT",
   "main": "index.js",
   "types": "./lib/index.d.ts",
+  "typings": "lib/index",
   "keywords": [
     "arkhamjs",
     "flux",
@@ -29,9 +30,8 @@
     "pretest": "npm run lint",
     "test": "jest"
   },
-  "typings": "dist/index",
   "devDependencies": {
-    "@types/jest": "^21.1.9",
+    "@types/jest": "^21.1.10",
     "@types/node": "^8.5.2",
     "jest": "^22.0.4",
     "jest-localstorage-mock": "^2.1.0",

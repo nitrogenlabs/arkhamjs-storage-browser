@@ -4,5 +4,6 @@
  */
 'use strict';
 
-var ArkhamStorage = require('./lib/BrowserStorage/BrowserStorage');
-exports.BrowserStorage = ArkhamStorage.BrowserStorage;
+var lib = require('./lib');
+
+exports.BrowserStorage = lib.BrowserStorage;
