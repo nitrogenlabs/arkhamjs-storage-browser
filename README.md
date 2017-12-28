@@ -10,3 +10,7 @@ or
 ```bash
 $ yarn add arkhamjs-storage-browser
 ```
+
+### Documentation
+
+See [arkhamjs.com](http://www.arkhamjs.com) for full documentation.

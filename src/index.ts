@@ -4,4 +4,4 @@
  */
 
 // Storage
-export {BrowserStorage} from './Storage/Storage';
+export {BrowserStorage} from './BrowserStorage/BrowserStorage';
