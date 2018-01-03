@@ -11,11 +11,11 @@
 
 Using [npm](https://www.npmjs.com/):
 ```bash
-$ npm install --save arkhamjs-storage-browser
+$ npm install --save @nlabs/arkhamjs-storage-browser
 ```
 or
 ```bash
-$ yarn add arkhamjs-storage-browser
+$ yarn add @nlabs/arkhamjs-storage-browser
 ```
 
 #### Documentation
