@@ -14,6 +14,11 @@ export class BrowserStorage {
   };
 
   constructor(options: BrowserStorageOptions = {}) {
+    // Methods
+    this.getStorageData = this.getStorageData.bind(this);
+    this.setStorageData = this.setStorageData.bind(this);
+
+    // Configuration
     this.options = {...this.options, ...options};
   }
 

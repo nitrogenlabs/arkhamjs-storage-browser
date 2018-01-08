@@ -20,4 +20,4 @@ $ yarn add @nlabs/arkhamjs-storage-browser
 
 #### Documentation
 
-For detailed [Documentation](http://www.arkhamjs.com) and additional options.
+For detailed [Documentation](http://www.arkhamjs.io) and additional options.
