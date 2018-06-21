@@ -4,14 +4,15 @@
  */
 
 import {BrowserStorage} from './BrowserStorage';
+import 'jest-localstorage-mock';
 
 describe('BrowserStorage', () => {
-  let localSpy, sessionSpy;
+  let localSpy;
+  let sessionSpy;
   const val: string = 'hello_world';
   const key: string = 'test';
   const storage: BrowserStorage = new BrowserStorage({type: 'session'});
-  const mockStorage = {setItem: () => null};
-  const {localStorage: globalLocal, sessionStorage: globalSession} = global as any;
+  const {localStorage: globalLocal, sessionStorage: globalSession} = window as any;
   BrowserStorage.window = {localStorage: globalLocal, sessionStorage: globalSession};
 
   beforeAll(() => {

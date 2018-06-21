@@ -142,18 +142,6 @@ export class BrowserStorage {
   }
 
   /**
-   * Get a key value from storage.
-   *
-   * @param {string} key The key for data.
-   * @returns {Promise<any>} the data object associated with the key.
-   */
-  getStorageData(key: string): Promise<any> {
-    const {type} = this.options;
-    const results = type === 'local' ? BrowserStorage.getLocalData(key) : BrowserStorage.getSessionData(key);
-    return Promise.resolve(results);
-  }
-
-  /**
    * Saves data to localStorage.
    *
    * @param {string} key Key to store data.
@@ -195,6 +183,18 @@ export class BrowserStorage {
     } else {
       return false;
     }
+  }
+
+  /**
+   * Get a key value from storage.
+   *
+   * @param {string} key The key for data.
+   * @returns {Promise<any>} the data object associated with the key.
+   */
+  getStorageData(key: string): Promise<any> {
+    const {type} = this.options;
+    const results = type === 'local' ? BrowserStorage.getLocalData(key) : BrowserStorage.getSessionData(key);
+    return Promise.resolve(results);
   }
 
   /**
