@@ -35,9 +35,9 @@
     "update": "yarn upgrade-interactive --latest"
   },
   "devDependencies": {
-    "@types/jest": "^23.1.1",
-    "@types/node": "^10.3.4",
-    "eslint": "^4.19.1",
+    "@types/jest": "^23.1.3",
+    "@types/node": "^10.5.1",
+    "eslint": "^5.0.1",
     "eslint-config-styleguidejs": "^0.7.5",
     "jest-localstorage-mock": "^2.2.0",
     "typescript": "^2.9.2"
