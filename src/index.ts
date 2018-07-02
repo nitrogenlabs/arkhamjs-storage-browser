@@ -5,6 +5,6 @@
 
 // Storage
 import {BrowserStorage} from './BrowserStorage/BrowserStorage';
-import {BrowserStorageOptions} from './types/main';
 
-export {BrowserStorage, BrowserStorageOptions};
+export * from './types/main';
+export {BrowserStorage};
